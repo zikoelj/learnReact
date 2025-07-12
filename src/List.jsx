@@ -1,4 +1,5 @@
 //rendering list in reactJs
+import PropTypes from "prop-types";
 function List(props){
 
     const category = props.category;
@@ -13,5 +14,15 @@ function List(props){
             <ol className="list-items">{listItems}</ol>
             </>
             );
+}
+List.propTypes = {
+    category : PropTypes.string.isRequired,
+    items : PropTypes.arrayOf(PropTypes.shape({id:PropTypes.number.isRequired,
+                                               name:PropTypes.string.isRequired,
+                                            calories:PropTypes.number.isRequired})), 
+}
+List.defaultProps = {
+    category:"Category",
+    items:[]
 }
 export default List  
