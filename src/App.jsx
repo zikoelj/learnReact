@@ -1,8 +1,8 @@
-import Button2 from "./Button2.jsx"
+import Picture from "./Picture.jsx";
 function App(){
    
     return(
-        <Button2/>
+        <Picture/>
     );
     }
 export default App
