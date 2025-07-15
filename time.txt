@@ -1,1 +1,1 @@
-je reste à 1.29h dans le video a la partie rendering list en react
+je reste à 2.13h dans le video a la partie color picker app en react.
