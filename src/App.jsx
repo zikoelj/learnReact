@@ -1,7 +1,8 @@
-import Counter from "./Counter";
+import MyCompenent from "./MyComponent";
+
 function App(){
    
-    return( <Counter/>);
+    return( <MyCompenent/>);
        
     }
 export default App
