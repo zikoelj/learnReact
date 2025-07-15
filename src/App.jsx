@@ -1,8 +1,7 @@
-import Picture from "./Picture.jsx";
+import MyComponant from "./MyComponant";
 function App(){
    
-    return(
-        <Picture/>
-    );
+    return( <MyComponant/>);
+       
     }
 export default App
