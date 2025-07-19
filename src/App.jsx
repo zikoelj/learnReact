@@ -1,8 +1,8 @@
-import MyCompenent2 from "./Mycomponent2";
+import MyCompenent3 from "./MyComponent3";
 function App(){
    
     return(<>
-          <MyCompenent2/>
+          <MyCompenent3/>
     </>);
        
     }
