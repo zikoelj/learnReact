@@ -19,7 +19,7 @@ function MyCompenent3(){
     return (<div>
                <h2>List of Food</h2>
                <ul>
-                {foods.map((food, index) => 
+                {foods((food, index) => 
                 <li key={index} 
                 onClick={
                     () =>handleRemoveFood(index)}>{food}</li>)}
