@@ -1,9 +1,8 @@
-import MyCompenent4 from "./MyComponent4";
+import ToDoList from "./ToDoList";
 function App(){
    
     return(<>
-          <MyCompenent4/>
+          <ToDoList/>
     </>);
-       
     }
 export default App
