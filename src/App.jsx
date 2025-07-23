@@ -1,8 +1,10 @@
-import ToDoList from "./ToDoList";
+import MyComponent5 from "./MyComponent5";
+
 function App(){
    
     return(<>
-          <ToDoList/>
+          <MyComponent5/>
+
     </>);
     }
 export default App
